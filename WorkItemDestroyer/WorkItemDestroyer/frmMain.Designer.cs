@@ -144,6 +144,8 @@
             // chkNoPrompt
             // 
             this.chkNoPrompt.AutoSize = true;
+            this.chkNoPrompt.Checked = true;
+            this.chkNoPrompt.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkNoPrompt.Location = new System.Drawing.Point(343, 59);
             this.chkNoPrompt.Name = "chkNoPrompt";
             this.chkNoPrompt.Size = new System.Drawing.Size(97, 21);
